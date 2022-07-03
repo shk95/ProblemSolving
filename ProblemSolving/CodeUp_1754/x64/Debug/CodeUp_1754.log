@@ -1,0 +1,10 @@
+﻿  main.c
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(6,13): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(6,13): message : 이 인수는 버퍼 크기로 사용됩니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(6,13): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(6,13): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 4개 필요하지만 2개가 제공되었습니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(6,13): message : 누락된 variadic 인수 3이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(6,13): message : 이 인수는 변환 지정자에서 사용됩니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(7,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\shk95\Work\C_ps\ProblemSolving\CodeUp_1754\main.c(8,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CodeUp_1754.vcxproj -> C:\Users\shk95\Work\C_ps\ProblemSolving\x64\Debug\CodeUp_1754.exe
