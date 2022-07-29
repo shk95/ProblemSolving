@@ -50,6 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/ProblemSolving/.vs/ProblemSolving/v17
 .vs
-hello
+ignored/*
