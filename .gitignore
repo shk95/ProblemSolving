@@ -52,3 +52,6 @@ Mkfile.old
 dkms.conf
 .vs
 ignored/*
+
+# java class
+*class
