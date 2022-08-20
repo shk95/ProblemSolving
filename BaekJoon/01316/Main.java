@@ -1,7 +1,7 @@
 //각 문자열에서 연속된 단어 묶음이 중복되지 않는것만 카운트
 import java.util.Scanner;
 public class Main{
-    public static void mai트(String [] args){
+    public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         int Cnt = sc.nextInt();
 
