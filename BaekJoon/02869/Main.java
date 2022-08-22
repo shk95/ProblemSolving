@@ -2,15 +2,15 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        int A, B, V, attempt;
+        double A, B, V;
 
-        A = sc.nextInt();
-        B = sc.nextInt();
-        V = sc.nextInt();
+        A = sc.nextDouble();
+        B = sc.nextDouble();
+        V = sc.nextDouble();
 
-        int temp = (V-A)/(float)(A-B);
-        attempt = Math.ceil(temp);
-        System.out.println(attempt);
+        double temp = (V-A)/(A-B);
+        
+        System.out.printf("%1.0f",Math.ceil(temp)+1);
     }
 }
 /*
