@@ -1,32 +1,32 @@
 #include <stdio.h>
 int main()
 {
-    int N;
-    N = scanf("%d", &N);
+    int N = 0;
+    scanf("%d", &N);
 
     int check = 1;
 
-    float countThree;
+    int countThree;
     int countFive = N / 5;
     for (; countFive >= 0; countFive--)
     {
-        countThree = ((float)countFive * 5 * (-1) + (float)N) / 3;
-        // float 비교에 문제가 있음
-        if (3 * countThree == (float)(N - 5 * countFive))
+        countThree = (countFive * 5 * (-1) + N) / 3;
+
+        if ((3 * countThree) == (N - 5 * countFive))
         {
             check = 0;
-            printf("check zero");
             break;
         }
         check = 1;
     }
+
     if (check == 0)
     {
-        printf("%1.0f", countFive + countThree);
+        printf("%d\n", countFive + countThree);
     }
     else
     {
-        printf("%d", -1);
+        printf("%d\n", -1);
     }
 }
 
