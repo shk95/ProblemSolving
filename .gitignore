@@ -55,3 +55,4 @@ ignored/*
 
 # java class
 *class
+/test.c
