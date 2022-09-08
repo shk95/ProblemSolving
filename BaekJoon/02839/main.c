@@ -10,10 +10,12 @@ int main()
     int countFive = N / 5;
     for (; countFive >= 0; countFive--)
     {
-        countThree = countFive * 5 * (-1) / 3 + (float)N / 3;
-        if ((countFive * (-1) * 5 / 3 + (float)N / 3 - countThree) == (float)0)
+        countThree = ((float)countFive * 5 * (-1) + (float)N) / 3;
+        // float 비교에 문제가 있음
+        if (3 * countThree == (float)(N - 5 * countFive))
         {
             check = 0;
+            printf("check zero");
             break;
         }
         check = 1;
